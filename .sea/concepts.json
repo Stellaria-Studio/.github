@@ -1,0 +1,33 @@
+[
+  {
+    "id": "project-architecture",
+    "name": ".github architecture",
+    "aliases": [
+      ".github",
+      ".github",
+      "架构",
+      "职责"
+    ],
+    "intent": "Organization public profile and repository conventions; private project knowledge is not mirrored here.",
+    "qualification": "DECLARED_PROJECT_KNOWLEDGE",
+    "invariants": [
+      "Source and project contracts remain authoritative; declared capabilities need matching execution evidence."
+    ],
+    "implementationPaths": [
+      "profile/README.md"
+    ],
+    "dependsOn": [],
+    "acceptanceGates": [
+      "source identity",
+      "declared validation is not execution evidence"
+    ],
+    "sources": [
+      {
+        "path": "profile/README.md",
+        "line": 1,
+        "commit": "0e7135f04d017f7fe50f69aafda444a3d1bc554c"
+      }
+    ],
+    "validation": []
+  }
+]

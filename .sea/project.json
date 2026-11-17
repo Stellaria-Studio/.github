@@ -1,0 +1,35 @@
+{
+  "schema": "stellaria.sea.project.v2",
+  "id": "Stellaria-Studio/.github",
+  "name": ".github",
+  "repository": "Stellaria-Studio/.github",
+  "defaultBranch": "main",
+  "tier": "C",
+  "profile": "knowledge-runtime",
+  "purpose": "Organization public profile and repository conventions; private project knowledge is not mirrored here.",
+  "visibility": "public",
+  "concepts": ".sea/concepts.json",
+  "invariants": [
+    "Source and project contracts remain authoritative; declared capabilities need matching execution evidence."
+  ],
+  "runtime": {
+    "repository": "Stellaria-Studio/Stellaria-SEA",
+    "version": "2.0.0",
+    "protocol": 2,
+    "sourceCommit": "6207b585ffabb8d182432bb3a03ba4d0a5279aa6"
+  },
+  "legacy": {
+    "definition": "tools/sea/project.json",
+    "history": "read-only; preserve original bytes"
+  },
+  "features": {
+    "contextBroker": true,
+    "architectureRegistry": true,
+    "localTaskCapsules": true,
+    "identityBinding": false,
+    "approvalWorkflow": false,
+    "enforcement": false,
+    "automaticPush": false
+  },
+  "sourceBaseline": "0e7135f04d017f7fe50f69aafda444a3d1bc554c"
+}

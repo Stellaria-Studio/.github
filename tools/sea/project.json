@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": ".github",
+  "components": {
+    "project": {
+      "description": "Organization public profile and repository conventions; private project knowledge is not mirrored here.",
+      "paths": [
+        "profile/README.md"
+      ],
+      "approved": [
+        "profile/README.md"
+      ],
+      "required_files": [
+        "profile/README.md"
+      ],
+      "build_targets": [],
+      "validation": [],
+      "pitfalls": [
+        "Source and project contracts remain authoritative; declared capabilities need matching execution evidence."
+      ],
+      "evidence": []
+    }
+  },
+  "build_metadata": []
+}
